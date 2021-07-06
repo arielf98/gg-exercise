@@ -1,2 +1,2 @@
 # GenerasiGIGIH
-repo untuk generasi GIGIH
+repo untuk generasi GIGIH.
