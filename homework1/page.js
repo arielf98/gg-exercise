@@ -7,9 +7,9 @@ document.title = "MY ALBUM"
 document.getElementsByTagName('h1')[0].innerHTML = "Create Playlist"
 
 // text for card
-document.getElementsByTagName('p')[0].innerHTML = "Drone Bocil Kematian"
-document.getElementsByTagName('p')[1].innerHTML = "Bocil Kematian"
-document.getElementsByTagName('p')[2].innerHTML = "Awas Ada Bocil Kematian"
+document.getElementsByTagName('p')[0].innerHTML = "Title"
+document.getElementsByTagName('p')[1].innerHTML = "Artist"
+document.getElementsByTagName('p')[2].innerHTML = "Albums"
 
 
 // show alert when button on click
