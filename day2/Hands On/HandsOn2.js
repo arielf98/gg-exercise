@@ -78,15 +78,25 @@ const secondCall =  () =>{
 // call third 
 const thirdCall = () => {
   return new Promise((resolve, reject) => {
-        resolve('third call started')
+      resolve('third call started')
     setTimeout(() => {
       const avg = getAverage(students)
       console.log(`age is ${avg}`)
       document.getElementById('average').innerHTML = avg 
-      console.log('third call finished')
+      thirdCallFinish().then(res => {
+        console.log(res)
+      })
     }, 5000);
-
   });
+}
+
+const thirdCallFinish = () => {
+
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve('third call finished')
+    }, 5000)
+  })
 }
 
 // call when button click
