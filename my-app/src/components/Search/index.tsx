@@ -31,8 +31,6 @@ export default function Search(){
       e.preventDefault()
       const api_key: string | undefined = process.env.REACT_APP_API_KEY 
       const limit = 12
-      console.log('api key', api_key)
-
       try{
           const result = await fetch(`https://api.giphy.com/v1/gifs/search?api_key=${api_key}&q=${query}&limit=${limit}`, {
               headers : { 
