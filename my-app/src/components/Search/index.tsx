@@ -38,10 +38,10 @@ export default function Search(){
                   'Accept': 'application/json'
                  }
              }).then(response => response.json())
-             console.log(result);
+            //  console.log(result);
              setGifs(result.data);
       }catch(e){
-          console.log(e)
+          // console.log(e)
       } 
   }
 
