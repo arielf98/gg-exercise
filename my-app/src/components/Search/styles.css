@@ -1,0 +1,32 @@
+
+.container {
+  display: flex;
+  margin: 12px 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input{
+  padding: 5px;
+}
+
+button{
+  padding: 5px;
+  margin: 2px;
+}
+
+.image-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  margin: 5px;
+  border-radius: 3px;
+}
